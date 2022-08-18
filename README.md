@@ -3,6 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+To install the project in your local system you need to go to console and type "npm i git-clone https://github.com/speeddraw2/newnew.git "
+to insta the dependencies type "npm i"
 
 In the project directory, you can run:
 
@@ -14,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm i`
+
 
 ### `npm test`
 
