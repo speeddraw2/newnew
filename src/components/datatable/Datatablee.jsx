@@ -12,7 +12,7 @@ import {
 } from "firebase/firestore";
 import { db } from "../../firebase";
 
-const Datatable = () => {
+const Datatablee = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -62,20 +62,15 @@ const Datatable = () => {
 
   const actionColumn = [
     {
-      field: "action",
-      headerName: "Action",
-      width: 200,
+      
+      
+      
       renderCell: (params) => {
         return (
-          <div className="cellAction">
-            
-            <div
-              className="deleteButton"
-              onClick={() => handleDelete(params.row.id)}
-            >
-              Delete
+            <div>
+
             </div>
-          </div>
+     
         );
       },
     },
@@ -83,7 +78,7 @@ const Datatable = () => {
   return (
     <div className="datatable">
       <div className="datatableTitle">
-        Add New User
+        Accounts
         <Link to="/users/new" className="link">
           Add New
         </Link>
@@ -100,4 +95,4 @@ const Datatable = () => {
   );
 };
 
-export default Datatable;
+export default Datatablee;
