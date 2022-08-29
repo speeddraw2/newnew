@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 To install the project in your local system you need to go to console and type "npm i git-clone https://github.com/speeddraw2/newnew.git "
-to install the dependencies type "npm i"
+to install the dependencies type "npm i" also you need to install  bootstrap with "npm install bootstrap@3" and reactstap "npm install reactstrap react react-dom" 
 
 In the project directory, you can run:
 
